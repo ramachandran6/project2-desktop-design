@@ -1,0 +1,55 @@
+body{
+    background-color: #540D6E;
+    padding: 150px;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: white;
+}
+.part-one{
+    background-color: #0c023E;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.pp1{
+    padding: 60px 90px 30px;
+}
+h1{
+    font-family: 'Inter', sans-serif;
+}
+p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+}
+h2{
+    font-family: 'Poppins', sans-serif;
+}
+.sp{
+    color: violet;
+}
+.nums{
+    padding: 0px 90px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+    grid-template-columns: repeat(3,1fr);
+    list-style: none;
+}
+li >h2,p{
+    margin: 0;
+}
+.nums > p{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.part-two{
+    background-image: url(businessmeet.png);
+    background-size: cover;
+    background-color: purple;
+    background-blend-mode: multiply;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px ;
+}
+
